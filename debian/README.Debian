@@ -1,6 +1,7 @@
-kafka for Debian
-----------------
+This build is ugly, taken from:
+https://github.com/Juniper/contrail-third-party-packages
 
-<possible notes regarding this package - if none, delete this file>
+Better try to enhance this build:
+https://github.com/blbradley/kafka-deb
 
- -- ubuntu <ubuntu@unknown>  Tue, 10 Feb 2015 16:58:34 -0800
+Find out how to build correctly with gradle, maybe build newer gradle package.
