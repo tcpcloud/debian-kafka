@@ -1,4 +1,4 @@
-kafka (2.9.2-0.8.2.0-0contrail0) precise; urgency=low
+kafka (2.9.2-0.8.2.0-0contrail0) trusty; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
