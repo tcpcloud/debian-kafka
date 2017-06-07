@@ -16,7 +16,7 @@
 
 if [ $# -lt 1 ];
 then
-	echo "USAGE: $0 [-daemon] server.properties"
+	echo "USAGE: $0 [-daemon] server.properties [--override property=value]*"
 	exit 1
 fi
 base_dir=$(dirname $0)
@@ -41,4 +41,4 @@ case $COMMAND in
     ;;
 esac
 
-exec $base_dir/kafka-run-class.sh $EXTRA_ARGS kafka.Kafka $@
+exec $base_dir/kafka-run-class.sh $EXTRA_ARGS kafka.Kafka "$@"

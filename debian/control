@@ -1,11 +1,15 @@
 Source: kafka
 Section: database
 Priority: extra
-Build-Depends: debhelper (>= 8.0.0)
+Maintainer: Arvind Viswanathan <ubuntu@unknown>
+Build-Depends: debhelper (>= 8.0.0), javahelper, dh-systemd
 Standards-Version: 3.9.2
-Maintainer: Filip Pytloun <filip.pytloun@tcpcloud.eu>
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/kafka.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/kafka.git;a=summary
 
 Package: kafka
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Apache Kafka
+Depends: default-jre-headless, ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
