@@ -1,5 +1,0 @@
-kafka (2.9.2-0.8.2.0-0contrail0) trusty; urgency=low
-
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
-
- -- Arvind Viswanathan (new gpg) <arvindv@juniper.net> Tue, 10 Feb 2015 16:58:34 -0800

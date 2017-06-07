@@ -1,7 +1,0 @@
-This build is ugly, taken from:
-https://github.com/Juniper/contrail-third-party-packages
-
-Better try to enhance this build:
-https://github.com/blbradley/kafka-deb
-
-Find out how to build correctly with gradle, maybe build newer gradle package.
